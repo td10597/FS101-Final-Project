@@ -1,0 +1,269 @@
+h1
+{
+    border: rgb(109, 90, 90) ridge 5px;
+    color: red;
+    text-align: center;
+}
+.layout table.schedule
+{
+    background-color: #a1a0a0;
+    border: rgb(141, 130, 130) inset 3px;
+    height: 100%;
+    width: 100%;
+}
+.layout table.schedule th
+{
+    border-bottom: rgb(64, 75, 72) ridge 1px;
+    text-align: center;
+}
+.layout table.schedule td
+{
+    border-right: rgb(54, 54, 66) ridge 1px;
+}
+.layout table.schedule .border td
+{
+    border-bottom: rgb(54, 54, 66) ridge 1px;
+}
+img
+{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.logo
+{
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+}
+:root 
+{
+    --mainColor: #5feeee;
+}
+a 
+{
+    background:
+     linear-gradient(
+       to right,
+       var(--mainColor) 0%,
+       var(--mainColor) 5px,
+       transparent 5px
+     );
+    background-repeat: repeat-x;
+    background-size: 100%;
+    color: #000;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+  
+a:hover 
+{
+    background:
+     linear-gradient(
+       to right,
+       var(--mainColor) 0%,
+       var(--mainColor) 6px,
+       transparent
+     );
+}
+.href
+{
+    margin-bottom: 10%;
+    margin-left: 38%;
+    margin-top: 10%;
+}
+
+a.button 
+{
+    background-color: transparent;
+    box-shadow: 0 5px 0 darkred;
+    color: black;
+    padding: 1em 3em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+  
+a.button:hover 
+{
+    background-color: #e6c06f;
+}
+
+  
+a.button:active 
+{
+    box-shadow: none;
+    top: 5px;
+}
+ul
+{
+    font-size: xx-large;
+    list-style-type: none;
+    height: 100%;
+    width: 100%;
+}
+.nav
+{
+    border: rgb(73, 72, 72) ridge 3px;
+    display: grid;
+    grid-column-gap: 2px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));  
+    text-align: center;
+}
+
+.nav div
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+.layout
+{
+    border: rgb(109, 92, 92) ridge 5px;
+    display: grid;
+    grid-auto-rows: 100px;
+    grid-template-columns: repeat(4, 1fr);  
+}
+.box1
+{
+    background-color: rgb(140, 141, 143);
+    grid-column-end: 2;
+    grid-column-start: 1;
+    grid-row-end: 6;
+    grid-row-start: 1;
+}
+.box2
+{
+    background-color: rgb(73, 72, 72);
+    grid-column-end: 3;
+    grid-column-start: 2;
+    grid-row-end: 5;
+    grid-row-start: 1;
+}
+.box3
+{
+    background-color: rgb(228, 228, 228);
+    grid-column-end: 4;
+    grid-column-start: 3;
+    grid-row-end: 3;
+    grid-row-start: 1;
+}
+.box4
+{
+    background-color: rgb(228, 228, 228);
+    grid-column-end: 4;
+    grid-column-start: 3;
+    grid-row-end: 5;
+    grid-row-start: 3;
+}
+.box5
+{
+    background-color: rgb(236, 227, 89);
+    grid-column-end: 5;
+    grid-column-start: 4;
+    grid-row-end: 6;
+    grid-row-start: 1;
+}
+.box6
+{
+    background-color: rgb(228, 228, 228);
+    grid-column-end: 4;
+    grid-column-start: 2;
+    grid-row-end: 6;
+    grid-row-start: 5;
+}
+.box7
+{
+    grid-column-end: 4;
+    grid-column-start: 2;
+    grid-row-end: 6;
+    grid-row-start: 1;
+}
+.box8
+{
+    grid-column-end: 4;
+    grid-column-start: 2;
+    grid-row-end: 6;
+    grid-row-start: 1;
+}
+.box9
+{
+    background-color: rgb(228, 228, 228);
+    grid-column-end: 3;
+    grid-column-start: 2;
+    grid-row-end: 3;
+    grid-row-start: 1;
+}
+.box10
+{
+    background-color: rgb(228, 228, 228);
+    grid-column-end: 4;
+    grid-column-start: 2;
+    grid-row-end: 6;
+    grid-row-start: 3;
+}
+
+.signUpNorm
+{
+    display: grid;
+    grid-column-gap: 2px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));  
+    text-align: center;
+}
+
+input[type=text], select 
+{
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    margin: 8px 0;
+    padding: 12px 20px;
+    width: 100%;
+}
+  
+input[type=submit] 
+{
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    margin: 8px 0;
+    padding: 5px 20px;
+    width: 100%;
+}
+  
+input[type=submit]:hover 
+{
+    background-color: #22644e;
+}
+.after
+{
+    background: url(/image/background.png);
+    bottom: 0;
+    content: "";
+    left: 0;
+    opacity: 0.2;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+div 
+{
+    border-radius: 1px;
+    padding: 1px;
+}
+.footer 
+{
+    background-color: rgb(218, 204, 182);
+    bottom: 0;
+    color: white;
+    height: 10%;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+ }
